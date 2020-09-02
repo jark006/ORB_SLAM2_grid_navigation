@@ -28,7 +28,7 @@ According to the result, Terminal will output `path Generate coreect` or `path G
 
 ### Preview
 
-![image](https://github.com/jark006/ORB_SLAM2_grid_navigation/pic.png)
+![image](https://raw.githubusercontent.com/jark006/ORB_SLAM2_grid_navigation/master/pic.png)
 
 _____________________________________________________________________________
 _____________________________________________________________________________
