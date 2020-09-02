@@ -1,3 +1,38 @@
+## This project base on those repositories below:
+
+Core project1: 
+    <b>https://github.com/raulmur/ORB_SLAM2</b>
+
+Core project2: 
+    <b>https://github.com/abhineet123/ORB_SLAM2</b>
+
+Map save and reload(it seens not stable):
+    <b>https://github.com/BoomFan/ORB_SLAM2</b>
+
+A-star pathplan:
+    <b>https://github.com/daancode/a-star</b>
+
+Only implement RGBD(ROS / kinect camera) example：
+
+Run `build.sh` and `build_ros.sh` to compile and it will transform `ORBvoc.txt` to `ORBvoc.bin` (load bin file is fast).
+
+Sub topic: `/camera/rgb/image_raw` and `/camera/depth_registered/image_raw`
+
+First,run `./Examples/ROS/ORB_SLAM2/RGBDpub ./Vocabulary/ORBvoc.bin yourParamter.yaml` to boot Orb-slam2 and point-cloud publisher.
+
+Then run `./Examples/ROS/ORB_SLAM2/VRobot 150 1 1 -3 3 -2 0.55 0.50 1 5` to sub point-cloud and generate 2d grid map.(More parameter detile see `2d-grid-mapping.pdf` below)
+
+Click in the white area to set the target location.
+
+According to the result, Terminal will output `path Generate coreect` or `path Generate ERROR`.
+
+### Preview
+
+![image](https://github.com/jark006/ORB_SLAM2_grid_navigation/pic.png)
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+
 Documentation is avalable at:
     <b>https://github.com/abhineet123/ORB_SLAM2/blob/master/2d-grid-mapping.pdf</b>
 
