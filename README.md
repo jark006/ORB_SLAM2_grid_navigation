@@ -26,7 +26,7 @@ Click in the white area to set the target location.
 
 According to the result, Terminal will output `path Generate coreect` or `path Generate ERROR`.
 
-### Preview
+### Preview 下图实验地点：广东工业大学工学一号馆507
 
 ![image](https://raw.githubusercontent.com/jark006/ORB_SLAM2_grid_navigation/master/pic.png)
 
