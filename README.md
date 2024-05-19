@@ -30,6 +30,10 @@ According to the result, Terminal will output `path Generate coreect` or `path G
 
 ![image](https://raw.githubusercontent.com/jark006/ORB_SLAM2_grid_navigation/master/pic.png)
 
+
+https://github.com/jark006/ORB_SLAM2_grid_navigation/assets/21077255/67af015a-f9a7-434c-a15a-3636046cd7f3
+
+
 _____________________________________________________________________________
 _____________________________________________________________________________
 
